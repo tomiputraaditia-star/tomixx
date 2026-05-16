@@ -1,0 +1,86 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Image Slider</title>  
+    <link rel="stylesheet" href="style.css">  
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />  
+</head>  
+
+<body>  
+
+   <!-- Musik Background -->
+ <audio id="bg-music" loop>
+    <source src="LAGU.mpeg" type="audio/mpeg">
+ </audio>
+
+    <div class="container">  
+
+        <div class="slide">  
+
+            <div class="item" style="background-image: url(img1.jpeg);">  
+                <div class="content">  
+                    <div class="name">Nggak mewah, tapi berkesan</div>  
+                    <div class="des">Malam, alas daun pisang, dan tawa yang nggak perlu alasan.</div>  
+                    <button>THE BEST</button>  
+                </div>  
+            </div>  
+
+            <div class="item" style="background-image: url(img2.jpeg);">  
+                <div class="content">  
+                    <div class="name">Sederhana aja, asal bareng kalian.</div>  
+                    <div class="des">Nggak butuh tempat yang mewah, cukup teduh pohon dan orang yang tepat.</div>  
+                    <button>THE BEST</button>  
+                </div>  
+            </div>  
+
+            <div class="item" style="background-image: url(img3.jpeg);">  
+                <div class="content">  
+                    <div class="name">Jajan di pinggir jalan, kenangannya di dalam hati</div>  
+                    <div class="des">Di antara asap sate dan bising jalan, ada sepotong waktu yang memilih untuk melambat.</div>  
+                    <button>THE BEST</button>  
+                </div>  
+            </div>  
+
+            <div class="item" style="background-image: url(img4.jpeg);">  
+                <div class="content">  
+                    <div class="name">Galeri wajah nggak serius, tapi kenangannya serius bikin kangen</div>  
+                    <div class="des">Tawa yang pecah, cahaya yang menari. cukup untuk diingat.</div>  
+                    <button>THE BEST</button>  
+                </div>  
+            </div>  
+
+            <div class="item" style="background-image: url(img5.jpeg);">  
+                <div class="content">  
+                    <div class="name">Bukan foto terbaik, tapi momen paling jujur.</div>  
+                    <div class="des">Waktu melambat sebentar, karena kami ada di frame yang sama.</div>  
+                    <button>THE BEST</button>  
+                </div>  
+            </div>  
+
+            <div class="item" style="background-image: url(img6.jpeg);">  
+                <div class="content">  
+                    <div class="name">Di sela rimbunnya hijau, ketemu tawa yang menenangkan</div>  
+                    <div class="des">Bersama orang-orang yang bikin hari biasa jadi berkesan.</div>  
+                    <button>THE BEST</button>  
+                </div>  
+            </div>  
+
+        </div>  
+
+        <div class="button">  
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>  
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>  
+        </div>  
+
+    </div>  
+
+    <script src="script.js"></script>  
+</body>  
+</html>
